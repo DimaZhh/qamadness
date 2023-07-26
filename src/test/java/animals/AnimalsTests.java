@@ -35,7 +35,15 @@ public class AnimalsTests {
     }
 
     @Test
-    public void testLucky() {
+    public void testLuckyFirst() {
+
+        Cat cat = new Cat("name", 12);
+
+        assertEquals("say may", cat.yourVoiceForTests());
+    }
+
+    @Test
+    public void testLuckySecond() {
 
         Cat cat = new Cat("name", 12);
 
