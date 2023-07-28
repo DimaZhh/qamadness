@@ -20,6 +20,10 @@ public class Cat extends Animal implements java.io.Serializable {
 
     }
 
+    public String yourVoiceTest(String voice) {
+        return voice;
+    }
+
     public String getName() {
         return name;
     }
