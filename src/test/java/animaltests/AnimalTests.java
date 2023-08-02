@@ -47,4 +47,10 @@ public class AnimalTests {
         assertEquals("voice", cat.yourVoiceTest("voice"));
     }
 
+    @Test
+    public void testSomethingLastOne() {
+        Cat cat = new Cat("name", 12);
+        assertEquals("voice", cat.yourVoiceTest("voice"));
+    }
+
 }
