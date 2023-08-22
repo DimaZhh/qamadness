@@ -22,9 +22,6 @@ public class RangeRover {
     String name = "LandRover Discovery";
     int age;
 
-
-
-
     public static final String STATIC_CONSTANT_FIELD_TEXT = "some common text needed in whole project";
     public static final int STATIC_CONSTANT_FIELD_NUMBER = 15;
 
@@ -34,7 +31,7 @@ public class RangeRover {
 
     /*
     *
-    * 2 this is dsadsad
+    * 2 this is dsadsad dsa
     * 15 this is dasdsa
     * */
     public static void printSomeCustomMessage() {
