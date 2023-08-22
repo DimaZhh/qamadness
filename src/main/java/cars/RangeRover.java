@@ -1,8 +1,23 @@
 package cars;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 public class RangeRover {
+
+
+    public static void main(String[] args) {
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
+        Integer sum = integers.stream()
+                .mapToInt(Integer::intValue)
+                .filter(s -> s%2==0)
+                .sum();
+
+
+
+        System.out.println(sum);
+    }
 
     String name = "LandRover Discovery";
     int age;
